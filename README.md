@@ -1,34 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PROMPTOPIA
 
-## Getting Started
+### Promptopia is a Full Stack web application created using Next.js Framework.
 
-First, run the development server:
+### It has CRUD functionalities which allows users to create, read, update and delete their prompts.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Anyone can use prompts by copying into their clipboards.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technical Specifications
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+`Next.js is a very popular framework which works on the top of react. It has so many powerful features which allows developers to create amazing full stack applications. Every framework created with some set of rules that we need to follow while creating applications.`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+`In Next.js routing is very simple and easier as compared to react. Because we just need to create some route folders according to our application requirements.`
 
-## Learn More
+`Promptopia allows us to share ideas and create AI Powered prompts which anyone can share and use in AI Platforms to get their work done.`
 
-To learn more about Next.js, take a look at the following resources:
+## Folder Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`The Main Entry point of the application is app folder which contains some folder structures and layout for our application to perform routing and creating api endpoints for the application backend.`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`In Backend MongoDB is used to store data related to users and prompts created by users.`
 
-## Deploy on Vercel
+### 1. app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+├───api
+│ ├───auth
+│ │ └───[...nextauth]
+│ ├───prompt
+│ │ ├───new
+│ │ └───[id]
+│ └───users
+│ └───[id]
+│ └───posts
+├───create-prompt
+├───profile
+└───update-prompt
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 2. components
+
+-> Feed.jsx
+-> Form.jsx
+-> Nav.jsx
+-> Profile.jsx
+-> PromptCard.jsx
+-> Provider.jsx
+
+### 3. models
+
+-> prompt.js
+-> user.js
+
+### 4. public
+
+└───assets
+├───icons
+└───images
+
+### 5. styles
+
+-> globals.css
+
+### 6. utils
+
+-> database.js
+
+### FUNCTIONALITIES
+
+- [Google Authentication] - By using Google Auth as a client anyone can signin using their google account.
+  If account was not found then It will automatically create the user account and save the details in the DB.
+
+- [Prompts Creation] - On Clicking `Create Prompt` user can create their prompts and it will save to the db.
+  we have models created related to prompt which represent the prompt inputs and validation into the database.
+  on create prompt we make a `POST` request in our api which we have created in `api` folder. The path for api is `/api/prompt/new` which makes a secure connection to database for performing create operation and save the prompt details.
+
+- [Home Dashboard] - The first page which user can see is Home page of Promptopia where user can see different posts or prompts which are created by users of our application. There are varieties of prompts available to copy and use as your wish. All are AI-powered prompts which helps you find and get the task done using AI Tools.
+
+- [Search for prompts] - We have implemented search functionality where user can type the search keywords like tag names or username or any specific word related to particular prompt or its usage. They will get the required prompts in the form of results.
+
+- [Edit & Delete Prompt] - Any user which has account on Promptopia can edit and delete their prompts.
+  By click on their profile image they will navigate to profile page, where user can see their personalize profile with the prompts created by that user, there we provided `edit` and `delete` options to edit and delete particular prompt using the specific promptId.
+
+- [Click on tag] - Prompts have specific tag associated with it. Which shows the topics or keywords related to the specific prompt. By clicking on tag, it will populate to the search bar and search related to specific tag.
+
+- [profile navigation] - By using this functionality anyone can navigate and view different profiles easily.
+  when user click on the profile image associated with particular prompt then it will navigate to that user's profile.
+
+- [Signout user] - We implemented signout facility for user to securely signout from Promptopia.
+
+- [View others profile] - We have implemented View Profiles option where any user can see other users profile on a specific page based on userid and user search.
