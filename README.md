@@ -87,3 +87,29 @@
 - [Signout user] - We implemented signout facility for user to securely signout from Promptopia.
 
 - [View others profile] - We have implemented View Profiles option where any user can see other users profile on a specific page based on userid and user search.
+
+
+## Project Screenshots
+
+### 1. Home Page
+
+![Home Page](https://github.com/yogesh6260/promptopia/assets/75936948/5d0f8b52-dffe-448a-837d-333fd2ad45aa)
+
+### 2. Create Prompt Page
+
+![Create Prompt Page](https://github.com/yogesh6260/promptopia/assets/75936948/9d103456-bb6e-49de-a9b8-85fcc8fafeec)
+
+### 3. User Profile Page
+
+![User Profile Page](https://github.com/yogesh6260/promptopia/assets/75936948/cff86c83-bc05-40d0-ac11-6429e11ab601)
+
+### 4. Edit Prompt Page
+
+![Edit Prompt Page](https://github.com/yogesh6260/promptopia/assets/75936948/e10bf97c-838e-4cdc-9e50-0be33b4fdc5c)
+
+### 5. On Search showing promptcards related to tag name.
+
+![search by tag](https://github.com/yogesh6260/promptopia/assets/75936948/d8f9116b-6656-42c7-9184-0193f3f756df)
+
+
+
