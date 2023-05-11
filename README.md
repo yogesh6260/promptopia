@@ -93,23 +93,32 @@
 
 ### 1. Home Page
 
-![Home Page](https://github.com/yogesh6260/promptopia/assets/75936948/5d0f8b52-dffe-448a-837d-333fd2ad45aa)
+![Home Page](https://github.com/yogesh6260/promptopia/assets/75936948/6e9a4158-8569-4160-988a-ba0ab4295593)
+
 
 ### 2. Create Prompt Page
 
-![Create Prompt Page](https://github.com/yogesh6260/promptopia/assets/75936948/9d103456-bb6e-49de-a9b8-85fcc8fafeec)
+![Create Prompt](https://github.com/yogesh6260/promptopia/assets/75936948/7c7c30e6-3db5-4047-aa1c-489c88280d22)
+
 
 ### 3. User Profile Page
 
-![User Profile Page](https://github.com/yogesh6260/promptopia/assets/75936948/cff86c83-bc05-40d0-ac11-6429e11ab601)
+![User Profile](https://github.com/yogesh6260/promptopia/assets/75936948/7d5ec3c5-18c2-4ed7-a9a5-5ec3cd0f04b1)
+
 
 ### 4. Edit Prompt Page
 
-![Edit Prompt Page](https://github.com/yogesh6260/promptopia/assets/75936948/e10bf97c-838e-4cdc-9e50-0be33b4fdc5c)
+![Edit Prompt](https://github.com/yogesh6260/promptopia/assets/75936948/9de27d13-c015-4c71-8c73-7f3a2c39541b)
+
 
 ### 5. On Search showing promptcards related to tag name.
 
-![search by tag](https://github.com/yogesh6260/promptopia/assets/75936948/d8f9116b-6656-42c7-9184-0193f3f756df)
+![Search by Tag](https://github.com/yogesh6260/promptopia/assets/75936948/7ebbbca0-710e-467f-a528-1ac91b6aba7c)
+
+
+### Project Deployed Link -> 
+https://promptopia-4ft0b4syh-yogesh6260.vercel.app/
+
 
 
 
