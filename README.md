@@ -117,7 +117,7 @@
 
 
 ### Project Deployed Link -> 
-https://promptopia-4ft0b4syh-yogesh6260.vercel.app/
+https://promptopia-amber.vercel.app/
 
 
 
