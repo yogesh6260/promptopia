@@ -59,34 +59,34 @@
 
 -> globals.css
 
-### 6. utils
+### 6. Utils
 
 -> database.js
 
 ### FUNCTIONALITIES
 
-- [Google Authentication] - By using Google Auth as a client anyone can signin using their google account.
-  If account was not found then It will automatically create the user account and save the details in the DB.
+- [Google Authentication] - By using Google Auth as a client anyone can sign in using their Google account.
+  If the account was not found then It will automatically create the user account and save the details in the DB.
 
-- [Prompts Creation] - On Clicking `Create Prompt` user can create their prompts and it will save to the db.
-  we have models created related to prompt which represent the prompt inputs and validation into the database.
-  on create prompt we make a `POST` request in our api which we have created in `api` folder. The path for api is `/api/prompt/new` which makes a secure connection to database for performing create operation and save the prompt details.
+- [Prompts Creation] - On Clicking `Create Prompt` users can create their prompts and it will save them to the db.
+  we have models created related to prompts which represent the prompt inputs and validation into the database.
+  on create prompt we make a `POST` request in our API which we have created in the `api` folder. The path for API is `/api/prompt/new` which makes a secure connection to the database for performing create operation and saving the prompt details.
 
-- [Home Dashboard] - The first page which user can see is Home page of Promptopia where user can see different posts or prompts which are created by users of our application. There are varieties of prompts available to copy and use as your wish. All are AI-powered prompts which helps you find and get the task done using AI Tools.
+- [Home Dashboard] - The first page which the user can see is the Home page of Promptopia where the user can see different posts or prompts which are created by users of our application. There are varieties of prompts available to copy and use as your wish. All are AI-powered prompts that help you find and get the task done using AI Tools.
 
-- [Search for prompts] - We have implemented search functionality where user can type the search keywords like tag names or username or any specific word related to particular prompt or its usage. They will get the required prompts in the form of results.
+- [Search for prompts] - We have implemented a search functionality where users can type the search keywords like tag names or usernames or any specific word related to a particular prompt or its usage. They will get the required prompts in the form of results.
 
-- [Edit & Delete Prompt] - Any user which has account on Promptopia can edit and delete their prompts.
-  By click on their profile image they will navigate to profile page, where user can see their personalize profile with the prompts created by that user, there we provided `edit` and `delete` options to edit and delete particular prompt using the specific promptId.
+- [Edit & Delete Prompt] - Any user with a Promptopia account can edit and delete their prompts.
+  By clicking on their profile image they will navigate to a profile page, where the user can see their personalized profile with the prompts created by that user, there we provided `edit` and `delete` options to edit and delete particular prompts using the specific promptId.
 
-- [Click on tag] - Prompts have specific tag associated with it. Which shows the topics or keywords related to the specific prompt. By clicking on tag, it will populate to the search bar and search related to specific tag.
+- [Click on tag] - Prompts have a specific tag associated with them. Which shows the topics or keywords related to the specific prompt. Clicking on a tag will populate the search bar and search related to a specific tag.
 
 - [profile navigation] - By using this functionality anyone can navigate and view different profiles easily.
-  when user click on the profile image associated with particular prompt then it will navigate to that user's profile.
+  when the user clicks on the profile image associated with a particular prompt then it will navigate to that user's profile.
 
-- [Signout user] - We implemented signout facility for user to securely signout from Promptopia.
+- [Signout user] - We implemented a signout facility for users to securely sign out from Promptopia.
 
-- [View others profile] - We have implemented View Profiles option where any user can see other users profile on a specific page based on userid and user search.
+- [View other's profile] - We have implemented the View Profiles option where any user can see other users' profiles on a specific page based on user-id and user search.
 
 
 ## Project Screenshots
@@ -111,12 +111,12 @@
 ![Edit Prompt](https://github.com/yogesh6260/promptopia/assets/75936948/9de27d13-c015-4c71-8c73-7f3a2c39541b)
 
 
-### 5. On Search showing promptcards related to tag name.
+### 5. On Search showing prompt cards related to the tag name.
 
 ![Search by Tag](https://github.com/yogesh6260/promptopia/assets/75936948/7ebbbca0-710e-467f-a528-1ac91b6aba7c)
 
 
-### Project Deployed Link -> 
+### Project Deployment Link -> 
 https://promptopia-amber.vercel.app/
 
 
