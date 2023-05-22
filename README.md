@@ -120,5 +120,20 @@
 https://promptopia-amber.vercel.app/
 
 
+## Instructions to run the project locally -
+Follow the step -
+1.) Clone the GitHub repo or download a zip file of the project.
+2.) Now open the terminal and navigate to the project directory.
+3.) Make sure you have a node.js environment setup to run npm(Node Package Manager).
+4.) After setting up the environment run the command in the root directory of your project.
+      cmd - npm install
+      It will install all the necessary dependencies and packages required to run the project. You can check the listed dependencies in 
+      package.json file.
+5.) Now to start your project locally, simply run the 'npm start' command in your terminal.
+    Then, it will open  browser window, in google chrome or any other browser havingURLl 'localhost:3000'.
+   
+   Now, you are ready to explore Promptopia locally, If you want to contribute to the code, you are welcome!
+   Having any queries related to project setup or any project related discussion, just drop me a msg on my email -                **yogeshtiwari6260@gmail.com**
+
 
 
